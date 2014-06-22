@@ -2396,12 +2396,13 @@ Scheme
 		}
 		
 	//Below are the custom fonts
+	//International Super Hero: general hud font
 		
 		"InternationalSuperHero12"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"International Super Hero"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -2411,7 +2412,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"International Super Hero"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -2421,7 +2422,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"International Super Hero"
 				"tall"		"24"
 				"antialias" "1"
 			}
@@ -2431,7 +2432,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"International Super Hero"
 				"tall"		"32"
 				"antialias" "1"
 			}
@@ -2441,7 +2442,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"International Super Hero"
 				"tall"		"36"
 				"antialias" "1"
 			}
@@ -2451,7 +2452,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"International Super Hero"
 				"tall"		"42"
 				"antialias" "1"
 			}
@@ -2461,7 +2462,79 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"International Super Hero"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+	//International Super Hero Exp: ammo numbers
+	
+	"InternationalSuperHeroExp12"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Exp"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHeroExp16"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Exp"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+
+		"InternationalSuperHeroExp24"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Exp"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHeroExp32"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Exp"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHeroExp36"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Exp"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHeroExp42"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Exp"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHeroExp48"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Exp"
 				"tall"		"48"
 				"antialias" "1"
 			}
@@ -4374,22 +4447,22 @@ Scheme
 		}
 		"7"
 		{
-			"font" "resource/fonts/intsh"
+			"font" "resource/fonts/intsh.ttf"
 			"name" "International Super Hero"
 		}
 		"8"
 		{
-			"font" "resource/fonts/intshc"
+			"font" "resource/fonts/intshc.ttf"
 			"name" "International Super Hero Cond"
 		}
 		"9"
 		{
-			"font" "resource/fonts/intshe"
+			"font" "resource/fonts/intshe.ttf"
 			"name" "International Super Hero Exp"
 		}
 		"10"
 		{
-			"font" "resource/fonts/intshl"
+			"font" "resource/fonts/intshl.ttf"
 			"name" "International Super Hero Light"
 		}
 	}
