@@ -55,7 +55,7 @@
 		"wide"			"55"	[$WIN32]
 		"tall"			"55"	[$WIN32]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
+		"xpos"			"-50"
 		"ypos"			"0"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"250"
@@ -73,13 +73,13 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"InternationalSuperHero48"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"realwhite"
 	}
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"4"
+		"xpos"			"-47"
 		"ypos"			"2"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"250"
@@ -89,13 +89,13 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"InternationalSuperHero48"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"realblack"
 	}
 	"TeamIndicator"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"100"
+		"xpos"			"50"
 		"ypos"			"95"
 		"zpos"			"2"
 		"wide"			"50"

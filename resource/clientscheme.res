@@ -18,6 +18,10 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		// custom hud colors
+		"realblack"			"0 0 0 255"
+		"realwhite"			"255 255 255 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
