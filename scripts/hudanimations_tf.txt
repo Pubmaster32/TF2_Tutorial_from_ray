@@ -206,9 +206,11 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate PlayerStatusHealthValue			fgcolor		"0 255 255 255" Linear 0.0 0.0
+	
+	Animate PlayerStatusHealthValue			FgColor		"0 255 255 255"		Linear 0.0 0.3
+	Animate PlayerStatusHealthValue 		FgColor		"realblack"			Linear 0.4 0.7
 	  
-	RunEvent HudHealthBonusPulseLoop	0.4
+	RunEvent HudHealthBonusPulseLoop	0.7
 }
 
 // call to loop HudHealthBonusPulse
@@ -221,7 +223,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate PlayerStatusHealthValue			fgcolor		"realwhite" Linear 0.0 0.0
+	Animate PlayerStatusHealthValue			FgColor		"realwhite" Linear 0.0 0.0
 }
 
 //===========================================
@@ -231,9 +233,11 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate PlayerStatusHealthValue			fgcolor		"255 0 0 255" Linear 0.0 0.0
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	Animate PlayerStatusHealthValue			FgColor		"255 0 0 255" 		Linear 0.0 0.3
+	Animate PlayerStatusHealthValue			FgColor		"realwhite"			Linear 0.4 0.7
+	
+	RunEvent HudHealthDyingPulseLoop	0.7
 }
 
 // call to loop HudHealthDyingPulse
@@ -254,11 +258,17 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-	Animate AmmoInClip					fgcolor		"0 255 255 255" 	Linear 0.0 0.0
-	Animate AmmoInReserve				fgcolor		"0 255 255 255" 	Linear 0.0 0.0
-	Animate AmmoNoClip					fgcolor		"0 255 255 255" 	Linear 0.0 0.0
 	
-	RunEvent HudLowAmmoPulseLoop	0.25
+	Animate AmmoInClip					FgColor		"255 157 100 255" 	Linear 0.0 0.3
+	Animate AmmoInClip					FgColor		"realwhite" 		Linear 0.4 0.7
+	
+	Animate AmmoInReserve				FgColor		"255 157 100 255" 	Linear 0.0 0.3
+	Animate AmmoInReserve				FgColor		"realwhite" 		Linear 0.4 0.7
+	
+	Animate AmmoNoClip					FgColor		"255 157 100 255" 	Linear 0.0 0.3
+	Animate AmmoNoClip					FgColor		"realwhite" 		Linear 0.4 0.7
+	
+	RunEvent HudLowAmmoPulseLoop	0.7
 }
 
 // call to loop HudLowAmmoPulse
@@ -271,9 +281,12 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-	Animate AmmoInClip					fgcolor		"realwhite" 	Linear 0.0 0.0
-	Animate AmmoInReserve				fgcolor		"realwhite" 	Linear 0.0 0.0
-	Animate AmmoNoClip					fgcolor		"realwhite" 	Linear 0.0 0.0
+	
+	Animate AmmoInClip					FgColor		"realwhite" 	Linear 0.0 0.0
+	
+	Animate AmmoInReserve				FgColor		"realwhite" 	Linear 0.0 0.0
+	
+	Animate AmmoNoClip					FgColor		"realwhite" 	Linear 0.0 0.0
 }
 
 //===========================================
@@ -431,13 +444,13 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.3
+	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.4 0.7
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"0 255 30 255"		Linear 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"8 84 17 255"		Linear 0.4 0.7
 
-	RunEvent HudMedicChargedLoop	0.6
+	RunEvent HudMedicChargedLoop	0.7
 }
 
 // call to loop HudHealthBonusPulse
