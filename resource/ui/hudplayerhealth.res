@@ -49,11 +49,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"ypos"			"33"	[$WIN32]
+		"xpos"			"99999999"	[$WIN32]
+		"ypos"			"99999999"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"tall"			"55"	[$WIN32]
+		"wide"			"0"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-50"
+		"xpos"			"-65"
 		"ypos"			"0"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"250"
@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"-47"
+		"xpos"			"-63"
 		"ypos"			"2"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"250"
@@ -95,10 +95,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"50"
+		"xpos"			"29"
 		"ypos"			"95"
 		"zpos"			"2"
-		"wide"			"50"
+		"wide"			"65"
 		"tall"	 		"3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -110,10 +110,23 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 
-		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_height"		"40"
 		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
+	}
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"29"
+		"ypos"			"55"
+		"zpos"			"-1"
+		"wide"			"65"
+		"tall"			"43"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 125"
 	}
 	"PlayerStatusBleedImage"
 	{
