@@ -76,6 +76,7 @@
 		"ypos"	"c150"
 		"wide"	"250"
 		"tall"	"120"
+	}
 	
 	HudDemomanCharge
 	{
