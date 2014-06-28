@@ -2402,6 +2402,16 @@ Scheme
 	//Below are the custom fonts
 	//International Super Hero: general hud font
 		
+		"InternationalSuperHero9"
+		{
+			"1"
+			{
+				"name"		"International Super Hero"
+				"tall"		"9"
+				"antialias" "1"
+			}
+		}
+	
 		"InternationalSuperHero12"
 		{
 			"1"
@@ -2539,6 +2549,88 @@ Scheme
 			"1"
 			{
 				"name"		"International Super Hero Exp"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		//International Super Hero Exp: ammo numbers
+		
+		"InternationalSuperHerolight9"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Light"
+				"tall"		"9"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHerolight12"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Light"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHerolight16"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Light"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+
+		"InternationalSuperHerolight24"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Light"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHerolight32"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Light"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHerolight36"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Light"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHerolight42"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Light"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		"InternationalSuperHerolight48"
+		{
+			"1"
+			{
+				"name"		"International Super Hero Light"
 				"tall"		"48"
 				"antialias" "1"
 			}

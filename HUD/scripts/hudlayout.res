@@ -56,11 +56,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -84,7 +80,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r254"	[$WIN32]
-		"ypos"			"r38"	[$WIN32]
+		"ypos"			"r77"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"8"
@@ -98,7 +94,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r254"	[$WIN32]
-		"ypos"			"r38"	[$WIN32]
+		"ypos"			"r77"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"8"
@@ -196,10 +192,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
+		"xpos"					"180"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -1016,12 +1010,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"r174"	[$WIN32]
+		"ypos"			"r80"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 	}	
