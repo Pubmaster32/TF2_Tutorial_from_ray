@@ -1,0 +1,5 @@
+Just put the "HUD" file in your
+C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom or
+C:\Program Files(x86)\Steam\steamapps\common\Team Fortress 2\tf\custom or
+C:\Program Files(x64)\Steam\steamapps\common\Team Fortress 2\tf\custom
+folder, then launch Team Fortress 2

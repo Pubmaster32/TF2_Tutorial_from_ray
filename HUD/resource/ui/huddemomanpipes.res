@@ -17,52 +17,12 @@
 		"teambg_3"		"../hud/misc_ammo_area_blue"			
 	}
 	
-	"HealthBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthBG"
-		"xpos"			"5"
-		"ypos"			"10"
-		"zpos"			"-1"
-		"wide"			"65"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 125"
-	}
-	
-	"TeamIndicator"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamIndicator"
-		"xpos"			"5"
-		"ypos"			"40"
-		"zpos"			"2"
-		"wide"			"65"
-		"tall"	 		"3"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible" 		"1" 
-		"enabled" 		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-
-		"src_corner_height"		"40"
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
-	}
-	
-	
 	"ChargeLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"25"
-		"ypos"					"11"
+		"xpos"					"24"
+		"ypos"					"38"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -86,7 +46,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"7"
-		"ypos"					"16"
+		"ypos"					"42"
 		"zpos"					"2"
 		"wide"					"75"
 		"tall"					"6"				
@@ -103,7 +63,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"-16"
+		"xpos"			"60"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
@@ -174,7 +134,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"-16"
+		"xpos"			"60"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"

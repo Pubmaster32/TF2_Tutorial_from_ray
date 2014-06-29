@@ -2,13 +2,13 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"28"
-		"delta_item_start_y"	"90"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"45"
+		"delta_item_start_y"	"60"
+		"delta_item_end_y"		"40"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"InternationalSuperHero24"
 	}
 	
 	"AccountBG"
@@ -48,10 +48,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"30"
-		"ypos"			"90"
+		"xpos"			"7"
+		"ypos"			"85"
 		"zpos"			"2"
-		"wide"			"55"
+		"wide"			"100"
 		"tall"			"26"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -62,23 +62,23 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMediumSmall"
-		"font_lodef"	"HudFontMedium"
+		"font"			"InternationalSuperHero32"
 	}
 	
-	"AmmoBG"
+	"MetalBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoBG"
+		"fieldName"		"MetalBG"
 		"xpos"			"26"
 		"ypos"			"81"
 		"zpos"			"-1"
-		"wide"			"75"
+		"wide"			"55"
 		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 125"
 	}
+	
 	"TeamIndicator"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -86,14 +86,14 @@
 		"xpos"			"26"
 		"ypos"			"112"
 		"zpos"			"2"
-		"wide"			"75"
+		"wide"			"55"
 		"tall"	 		"3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible" 		"1" 
 		"enabled" 		"1"
+		"scaleImage"	"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"

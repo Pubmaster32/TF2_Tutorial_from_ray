@@ -82,8 +82,8 @@
 		"xpos"			"r254"	[$WIN32]
 		"ypos"			"r77"	[$WIN32]
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"8"
+		"wide"			"150"
+		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -236,10 +236,8 @@
 		"xpos"		"c-126"
 		"ypos"		"250"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"40"
 		"priority"	"40"
-		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -256,10 +254,8 @@
 		"xpos"		"c-126"
 		"ypos"		"250"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"40"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -273,9 +269,8 @@
 		"xpos"		"c-126"
 		"ypos"		"300"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"35"
+		"tall"	 	"40"
+		"priority"	"40"
 
 		if_vr
 		{
@@ -1010,9 +1005,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r174"	[$WIN32]
+		"xpos"			"r251"	[$WIN32]
 		"ypos"			"r80"	[$WIN32]
-		"wide"			"100"
+		"wide"			"200"
 		"tall"			"50"
 	}	
 
