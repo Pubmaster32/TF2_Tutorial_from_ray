@@ -11,13 +11,12 @@
 		"tall"			"45"
 		"visible"		"0"
 		"enabled"		"0"
+		"scaleImage"	"1"
 		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"teambg_3"		"../hud/ammo_blue_bg"		
 	}
+	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,13 +28,12 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/ammo_red_bg"
 		"scaleImage"	"1"	
+		"image"			"../hud/ammo_red_bg"
 		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"teambg_3"		"../hud/ammo_blue_bg"	
 	}
+	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
@@ -51,7 +49,8 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%Ammo%"
-	}		
+	}
+	
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -68,6 +67,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"%Ammo%"
 	}
+	
 	"AmmoBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -81,6 +81,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 125"
 	}
+	
 	"TeamIndicator"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -94,8 +95,8 @@
 		"pinCorner"		"0"
 		"visible" 		"1" 
 		"enabled" 		"1"
-		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
+		"image"			"../hud/color_panel_brown"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
@@ -105,6 +106,7 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 	}
+	
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
@@ -120,7 +122,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
-	}		
+	}
+	
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -136,7 +139,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
-	}									
+	}
+	
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -153,7 +157,8 @@
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
-	}	
+	}
+	
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -170,5 +175,5 @@
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
-	}									
+	}					
 }
