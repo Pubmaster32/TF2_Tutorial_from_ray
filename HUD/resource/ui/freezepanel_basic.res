@@ -285,7 +285,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"HudFontSmall"
+			"font"			"InternationalSuperHero16"
 			"xpos"			"61"
 			"ypos"			"173"
 			"zpos"			"5"

@@ -5,10 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r200"	[$WIN32]
-		"ypos"			"r77"	[$WIN32]
+		"xpos"			"r201"	[$WIN32]
+		"ypos"			"r78"	[$WIN32]
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"40"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -57,8 +57,8 @@
 		"pinCorner"		"0"
 		"visible" 		"1" 
 		"enabled" 		"1"
-		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
+		"image"			"../hud/color_panel_brown"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"28"
 		"ypos"					"24"
 		"zpos"					"2"
 		"wide"					"41"
@@ -116,7 +116,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
+		"xpos"					"28"
 		"ypos"					"7"
 		"zpos"					"2"
 		"wide"					"40"

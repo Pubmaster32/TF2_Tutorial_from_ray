@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r291"	[$WIN32]
+		"xpos"			"r293"	[$WIN32]
 		"ypos"			"r58"	[$WIN32]
 		"wide"			"200"
 		"tall"			"50"
@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
+		"xpos"			"14"
 		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"100"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"60"
+		"xpos"					"59"
 		"ypos"					"22"
 		"zpos"					"2"
 		"wide"					"41"
@@ -57,7 +57,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
+		"xpos"					"49"
 		"ypos"					"22"
 		"zpos"					"2"
 		"wide"					"75"

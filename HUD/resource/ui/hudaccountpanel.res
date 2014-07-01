@@ -69,7 +69,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MetalBG"
-		"xpos"			"26"
+		"xpos"			"25"
 		"ypos"			"81"
 		"zpos"			"-1"
 		"wide"			"55"
@@ -83,8 +83,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"26"
-		"ypos"			"112"
+		"xpos"			"25"
+		"ypos"			"111"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"	 		"3"
@@ -92,7 +92,7 @@
 		"pinCorner"		"0"
 		"visible" 		"1" 
 		"enabled" 		"1"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 		"image"			"../hud/color_panel_brown"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"

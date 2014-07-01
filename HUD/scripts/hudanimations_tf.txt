@@ -242,7 +242,7 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValue			FgColor		"realwhite"			Linear 0.4 0.7
 	
 	Animate PlayerStatusHealthvalueTargetID FgColor 	"255 0 0 255" 	linear 0.0 0.3
-	Animate PlayerStatusHealthvalueTargetID FgColor		"realblack"			Linear 0.4 0.7
+	Animate PlayerStatusHealthvalueTargetID FgColor		"realwhite"			Linear 0.4 0.7
 	
 	RunEvent HudHealthDyingPulseLoop	0.7
 }
