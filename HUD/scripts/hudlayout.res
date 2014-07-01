@@ -1008,7 +1008,7 @@
 		"xpos"			"r251"	[$WIN32]
 		"ypos"			"r80"	[$WIN32]
 		"wide"			"200"
-		"tall"			"50"
+		"tall"			"75"
 	}	
 
 	HudTeamGoal
